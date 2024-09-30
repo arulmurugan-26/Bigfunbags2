@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Document</title><style>
+        *{
+        margin: 0px;
+        padding: 0px;
+        }body{
+            background-color:snow;
+        }
+        .nav1
+        {
+background-color: blanchedalmond;
+       height: 90px;
+       position: sticky;
+       top: 0px;
+     }
+.ul
+{
+display: inline-block; height: 60px;
+}
+.li 
+{
+    display: inline-block;
+}
+   a
+   {color: black;
+ text-decoration: none;}
+h1{
+float:inline-start ;
+font-size: xx-large;
+margin-top: 25px;
+}.logoimg{
+    float: inline-start;margin-top: 20px;
+}
+ .button1{
+    color: black;
+    background-color:seashell;
+font-weight: bold;
+border-radius: 10px;
+height: 50px; width: 150px;  border: hidden;
+} .button1:hover{
+    background-color: blanchedalmond;
+} .button0{
+ justify-content: space-around; display: flex;
+}
+.cb1{
+    display: flex;
+    flex-flow: wrap;
+background-color:snow; justify-content: space-around; 
+margin: 10PX;
+}  
+.cb3{
+    display:inline-block; height: 400px; width: 300px;   flex-flow: wrap; 
+    padding: 5px;
+}
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px;
+    min-width: 200px;
+}
+
+.footer-section h3 {
+    margin-bottom: 10px;
+    color: blanchedalmond;
+}
+
+.footer-section p{
+    font-size: medium;
+}
+.footer-section ul {
+    list-style-type: none;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+    font-size: medium;
+}
+
+.footer-section a {
+    text-decoration: none;
+    color: white;
+}
+.footer-section a:hover {
+    color: bisque;
+}.ficon{
+    font-size: x-large;
+} .socialmedia a.hover{
+color: bisque;
+} 
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid bisque; 
+    padding-top: 15px;
+    font-size: medium ;
+}
+.ficon{
+display: flex;
+justify-content: center;
+}
+.ficon a{
+    font-size: xx-large; color:white;
+}.ficon a:hover{
+color: bisque;
+}
+@media (min-width:1200px)
+{.nav1{
+    height: 80px;
+}
+.nav1>.logoimg{
+    height: 60px;
+    width: 50px;
+} 
+.nav1>h1{
+    font-size:xx-large
+}
+.ul{
+    font-size:x-large;
+float: inline-end;
+}
+.li{ font-size: large;
+    margin-top: 35px;
+    padding: 20px;
+}
+}
+@media (min-width:900px)
+{.nav1{
+    height: 80px;
+}
+.nav1>.logoimg{
+    height: 55px;
+    width: 45px;
+}
+.nav1>h1{
+    font-size:xx-large
+}
+.ul{
+    font-size:larger;
+float: inline-end;
+}
+.li{ font-size: large;
+    margin-top: 30px;
+    padding: 25px;
+}
+}
+@media (min-width:768px)and (max-width:899px)
+{.nav1{
+    height: 70px;
+}
+.nav1>.logoimg{
+    height: 35px;
+    width: 30px;
+}
+.nav1>h1{
+    font-size:larger;
+}
+.ul{
+    font-size:large;
+float: inline-end;
+}
+.li{ font-size: large;
+    margin-top: 25px;
+    padding: 20px;
+}
+}
+@media (min-width:481px)and (max-width:767px)
+{.nav1{
+    height: 60px;
+}
+.nav1>.logoimg{
+    height: 30px;
+    width: 20px;
+}
+.nav1>h1{
+    font-size:large;
+}
+.ul{
+    font-size: medium;
+float: inline-end;
+}
+.li{ font-size: small;
+    margin-top: 24px;
+    padding: 15px;
+}.button0{
+    height: 10px; width: 10px;
+}
+}
+@media (max-width:480px)
+{.nav1{
+    height: 35px;
+}
+.nav1>.logoimg{
+    height: 15px;
+    width: 10px;
+    margin-top: 14px;
+}
+.nav1>h1{
+    font-size:small; margin-top: 13px;
+}
+.ul{
+    font-size: smaller;
+float: inline-end;
+     margin-left: 10%;
+}
+.li{ font-size: small;
+    margin-top: 10px;
+    padding: 5px; 
+}
+}
+    </style><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    </style>
+</head>
+<body>
+    <nav class="nav1"><img class="logoimg" src="logo/logo.png" height="60px" width="50px">
+        <h1>BIGFUN</h1>
+        <ul class="ul">
+        <!-- <li class="li"><a href="home1.html"><span><i class="fa-solid fa-house-chimney"></i></span>Home</a></li> -->
+        <li class="li"><span><i class="fa-solid fa-right-to-bracket"></i> <a href="./navlogin.html">Login</a></span></li>
+        <li class="li"><span><i class="fa-brands fa-product-hunt"></i> <a href="./navproduct.html">Products</a></span></li>
+        <li class="li"><span><i class="fa-solid fa-cart-shopping"></i></span><a href="cart.html">My cart</a></li>
+        <li class="li"><span><i class="fa-solid fa-address-book"></i></span><a href="contact.html">Contact us</a></li>
+</ul>
+</nav> <br><center>
+<div class="button0">
+<a href="./hb.html"><button class="button1">Hand bags</button></a>
+<a href="./bp.html"><button class="button1">Backpacks</button></a>
+<a href="travelbag.html"><button class="button1">Travel bags</button></a>
+<a href="totebag.html"><button class="button1">Cross bags</button></a>
+<a href="clutches.html"><button class="button1">Clutches</button></a>
+<a href="slingbag.html"><button class="button1">Sling bags</button></a>
+</div>
+</center><br>
+<center> <div class="div2">
+<img src="bagbanner/bag banner5.webp" height="80%" width="100%">
+</div> <br>
+<center>
+<hr><h2 id="products">Products</h2>
+ <hr><br>
+
+<div class="cb1">
+    <div  class="cb2"><a href="hb.html"><img src="profile/handbag pro.webp" alt="" height="400px" width="350px">
+    <h3>HAND BAGS</h3></a>
+       <br>
+       </div>
+   
+   <div  class="cb2"> <a href="slingbag.html"><img src="profile/slings pro.webp" alt=""height="400px" width="350px" >
+   <h3>SLING BAGS</h3></a>
+   <br>
+       
+   </div>
+
+   <div  class="cb2"><a href="clutches.html"><img src="profile/clutches pro.webp" alt="" height="400px" width="350px">
+       <h3>CLUTCHES</h3></a>
+           <br>
+       
+   </div>
+
+   <div  class="cb2"><a href="bp.html"><img src="profile/backpack pro.webp" alt="" height="400px" width="350px">
+           <h3>BACKPACKS </h3></a>
+       <br>
+        
+   </div>
+
+   <div  class="cb2"><a href="totebag.html"><img src="profile/tote pro.webp" alt="" height="400px" width="350px">
+         <h3>TOTES</h3></a>
+       <br>
+       </div>
+       <div  class="cb2"><a href=""><img src="profile/travelbag pro.webp" alt="" height="400px" width="350px">
+           <h3>TRAVEL BAGS</a>
+           <br>
+        </div></div>
+       <div class="cb4"> <hr><h2>SHOP BY VIDEO</h2> <hr><br>
+        <div class="cb3"><video src="bagvideo/bagvideo 3.mp4" controls autoplay muted loop height="450px" width="310px"></video></div>
+        <div class="cb3"><video src="bagvideo/bagvideo 2.mp4" controls autoplay muted loop height="450px" width="310px"></video></div>
+        <div class="cb3"><video src="bagvideo/bagvideo 1.mp4" controls autoplay muted loop height="450px" width="310px"></video></div>
+        <div class="cb3"><video src="bagvideo/bagvideo 4.mp4" controls autoplay muted loop height="450px" width="310px"></video></div>     
+</div>
+    <br><br><br><br>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section"><img src="logo/logo 2.png" alt="">
+            </div>
+           <br> <div class="footer-section">
+                <h3>About Us</h3>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Sign In</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Make Money With us</h3>
+                <ul>
+                    <li><a href="">Bigfun visa</a></li>
+                    <li><a href="">Sellbags on site </a></li>
+                    <li><a href="">Add your products</a></li>
+                    <li><a href="">Self publish</a></li>
+                    <li><a href="">Delivery partner</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>About bags </h3>
+                <ul>
+                    <li><a href=""> Men</a></li>
+                    <li><a href="">Women</a></li>
+                    <li><a href="">Travel</a></li>
+                    <li><a href="">Business</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>bigfunbags@gmail.com </p>
+                <p>Phone: 893-826-0025</p>
+                <p>84/3, Ananya street 2nd cross, </p>
+                <p>  Namakkal 620-021</p>
+            </div></div> 
+          <center>
+        <div class="ficon">
+        <a href=""><p><i class="fa-brands fa-square-instagram"></i> &nbsp;&nbsp;</a>
+<a href=""><p><i class="fa-brands fa-facebook"></i>&nbsp;&nbsp;</a>
+<a href=""><p><i class="fa-brands fa-twitter"></i>&nbsp;&nbsp;</a>
+<a href=""><p><i class="fa-solid fa-envelope"></i>&nbsp;&nbsp;</a>
+</div>
+</center>
+        <div class="footer-bottom">
+            <p>&copy; 2024 trend bags,All Rights Reserved.</p>
+            <p> designed by Bigfunbags</p>
+        </div>
+
+</footer>
+</body>
+</html>

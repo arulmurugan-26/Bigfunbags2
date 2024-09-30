@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Document</title><style>
+        *{
+        margin: 0px;
+        padding: 0px;
+        }
+        .nav1
+        {
+background-color: blanchedalmond;
+       height: 90px;
+       position: sticky;
+       top: 0px;
+     }
+.ul
+{
+display: inline-block; height: 60px;
+}
+.li 
+{
+    display: inline-block;
+    padding: 15px;font-size: larger;
+}.logoimg{
+    float: inline-start;margin-top: 20px;
+}
+   a
+   { color: black;
+ text-decoration: none;}
+h1{
+float:inline-start ;
+font-size: xx-large;
+margin-top: 25px;
+} 
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: 14px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px;
+    min-width: 200px;
+}
+
+.footer-section h3 {
+    margin-bottom: 10px;
+    color: blanchedalmond;
+}
+
+.footer-section p{
+    font-size: medium;
+}
+.footer-section ul {
+    list-style-type: none;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+    font-size: medium;
+}
+
+.footer-section a {
+    text-decoration: none;
+    color: white;
+}
+.footer-section a:hover {
+    color: bisque;
+}.ficon{
+    font-size: x-large;
+} .socialmedia a.hover{
+color: bisque;
+} 
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid bisque; 
+    padding-top: 15px;
+    font-size: medium ;
+}
+@media (min-width:1200px)
+{.nav1{
+    height: 80px;
+}
+.nav1>.logoimg{
+    height: 60px;
+    width: 50px;
+} 
+.nav1>h1{
+    font-size:xx-large
+}
+.ul{
+    font-size:x-large;
+float: inline-end;
+}
+.li{ font-size: large;
+    margin-top: 35px;
+    padding: 20px;
+}
+}
+@media (min-width:900px)
+{.nav1{
+    height: 80px;
+}
+.nav1>.logoimg{
+    height: 55px;
+    width: 45px;
+}
+.nav1>h1{
+    font-size:xx-large
+}
+.ul{
+    font-size:larger;
+float: inline-end;
+}
+.li{ font-size: large;
+    margin-top: 30px;
+    padding: 25px;
+}
+}
+@media (min-width:768px)and (max-width:899px)
+{.nav1{
+    height: 70px;
+}
+.nav1>.logoimg{
+    height: 35px;
+    width: 30px;
+}
+.nav1>h1{
+    font-size:larger;
+}
+.ul{
+    font-size:large;
+float: inline-end;
+}
+.li{ font-size: large;
+    margin-top: 25px;
+    padding: 20px;
+}
+}
+@media (min-width:481px)and (max-width:767px)
+{.nav1{
+    height: 60px;
+}
+.nav1>.logoimg{
+    height: 30px;
+    width: 20px;
+}
+.nav1>h1{
+    font-size:large;
+}
+.ul{
+    font-size: medium;
+float: inline-end;
+}
+.li{ font-size: small;
+    margin-top: 24px;
+    padding: 15px;
+}
+}
+@media (max-width:480px)
+{.nav1{
+    height: 35px;
+}
+.nav1>.logoimg{
+    height: 15px;
+    width: 10px;
+    margin-top: 14px;
+}
+.nav1>h1{
+    font-size:small; margin-top: 13px;
+}
+.ul{
+    font-size: smaller;
+float: inline-end;
+     margin-left: 10%;
+}
+.li{ font-size: small;
+    margin-top: 10px;
+    padding: 5px; 
+}
+}
+</style><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</style></head>
+<body>
+    <nav class="nav1"><img class="logoimg" src="logo/logo.png" height="60px" width="50px">
+        <h1>BIGFUN</h1>
+        <ul class="ul">
+        <li class="li"><a href="./index.html"><span><i class="fa-solid fa-house-chimney"></i></span>Home</a></li>
+        <li class="li"><span><i class="fa-solid fa-right-to-bracket"></i> <a href="./navlogin.html">Login</a></span></li>
+        <li class="li"><span><i class="fa-brands fa-product-hunt"></i> <a href="./navproduct.html">Products</a></span></li>
+        <!-- <li class="li"><span><i class="fa-solid fa-cart-shopping"></i></span><a href="">My cart</a></li> -->
+        <li class="li"><span><i class="fa-solid fa-address-book"></i></span><a href="contact.html">Contact us</a></li>
+</ul>
+</nav> <br><br><br><br><br><br><br><br>
+<footer>
+    <div class="footer-container">
+        <div class="footer-section"><img src="logo/logo 2.png" alt="">
+        </div>
+       <br> <div class="footer-section">
+            <h3>About Us</h3>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Sign In</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Make Money With us</h3>
+            <ul>
+                <li><a href="">Bigfun visa</a></li>
+                <li><a href="">Sellbags on site </a></li>
+                <li><a href="">Add your products</a></li>
+                <li><a href="">Self publish</a></li>
+                <li><a href="">Delivery partner</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>About bags </h3>
+            <ul>
+                <li><a href=""> Men</a></li>
+                <li><a href="">Women</a></li>
+                <li><a href="">Travel</a></li>
+                <li><a href="">Business</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Contact Us</h3>
+            <p>bigfunbags@gmail.com </p>
+            <p>Phone: 893-826-0025</p>
+            <p>84/3, Ananya street 2nd cross, </p>
+            <p>  Namakkal 620-021</p>
+        </div></div> 
+        <center class="ficon">  <div class="socialmedia">
+            <a href="#"><i class="fab fa-facebook" style="color: white;"></i></a>
+            <a href="#"><i class="fab fa-twitter" style="color: white;"></i></a>
+            <a href="#"><i class="fab fa-instagram" style="color: white;"></i></a>
+            <a href="#"><i class="fab fa-linkedin"style="color: white;"></i></a>
+    </div></center>
+    <div class="footer-bottom">
+        <p>&copy; 2024 trend bags,All Rights Reserved.</p>
+        <p> designed by Bigfunbags</p>
+    </div>
+</footer>
+ </body>
+ </html>
